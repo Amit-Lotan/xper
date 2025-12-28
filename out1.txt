@@ -149,20 +149,20 @@
                   )
                   (<assign,=>)
                   (<EXP>
-                    (<(>)
-                    (<TYPE>
-                      (<float>)
-                    )
-                    (<)>)
                     (<EXP>
+                      (<(>)
+                      (<TYPE>
+                        (<float>)
+                      )
+                      (<)>)
                       (<EXP>
                         (<id,a>)
                       )
-                      (<addop,+>)
-                      (<EXP>
-                        (<NUM>
-                          (<integernum,55>)
-                        )
+                    )
+                    (<addop,+>)
+                    (<EXP>
+                      (<NUM>
+                        (<integernum,55>)
                       )
                     )
                   )
@@ -234,25 +234,25 @@
                         )
                         (<assign,=>)
                         (<EXP>
-                          (<(>)
-                          (<TYPE>
-                            (<int>)
-                          )
-                          (<)>)
                           (<EXP>
+                            (<(>)
+                            (<TYPE>
+                              (<int>)
+                            )
+                            (<)>)
                             (<EXP>
                               (<id,a>)
                             )
-                            (<addop,+>)
+                          )
+                          (<addop,+>)
+                          (<EXP>
+                            (<(>)
+                            (<TYPE>
+                              (<int>)
+                            )
+                            (<)>)
                             (<EXP>
-                              (<(>)
-                              (<TYPE>
-                                (<int>)
-                              )
-                              (<)>)
-                              (<EXP>
-                                (<id,B>)
-                              )
+                              (<id,B>)
                             )
                           )
                         )
